@@ -1,0 +1,157 @@
+/* app.css */
+
+/* Form Container */
+.comp-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  /* Form Input Fields */
+  .comp-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .comp-container input[type="text"]:hover,
+  .comp-container input[type="text"]:focus {
+    border-color: #0066ff;
+  }
+  
+  /* Form Button */
+  .comp-container button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comp-container button :hover {
+    background-color: #0047b3;
+  }
+  
+  /* Response Section */
+  .response-section {
+    margin-top: 20px;
+  }
+  
+  .response-section h2 {
+    color: #0066ff;
+  }
+  
+  .response-section pre {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  /* Form Field Label */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Form Submit Button */
+  .submit-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    /* margin-left: 50% ;
+    margin-top: 12px; */
+  }
+  
+  .submit-button:hover {
+    background-color: #007a00;
+  }
+  /* for JsonProcessor */
+  /* Style for the main container */
+#fileHandlerContainer {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+/* Style for the form */
+#metadataForm {
+  margin-bottom: 20px;
+}
+
+/* Style for the input in the form */
+#pathInput {
+  width: 31%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Style for the submit button in the form */
+#metadataSubmit {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+#metadataSubmit:hover {
+  background-color: #45a049;
+}
+
+#responseContainer {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+/* #editFlex{
+  display: flex;
+  justify-content: space-around;
+} */
+#metadataTable th {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px;
+}
+
+#metadataTable td, #metadataTable th {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#metadataTable tbody {
+  background-color: #fff;
+}
+#metadataTable tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+#metadataTable {
+  display: table;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
